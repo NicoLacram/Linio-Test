@@ -1,0 +1,26 @@
+{
+    "name": "lnicolas/linio",
+    "description": "Challenge for Linio",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "authors": [{
+        "name": "Nicolas Lacrampette",
+        "email": "lacrampette.nicolas@gmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Linio\\": "src/",
+            "tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "run": "php index.php",
+        "test": "./vendor/bin/phpunit tests"
+    }
+    
+    
+}
+
